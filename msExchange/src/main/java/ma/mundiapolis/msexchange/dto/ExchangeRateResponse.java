@@ -6,18 +6,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.Map;
 
-/**
- DTO pour mapper la réponse de l'API ExchangeRate
- Exemple de réponse :
- {
- "result": "success",
- "base_code": "USD",
- "conversion_rates": {
- "EUR": 0.8635,
- "MAD": 9.2561,
-    }
- }
- */
+
 
 @Data
 @AllArgsConstructor

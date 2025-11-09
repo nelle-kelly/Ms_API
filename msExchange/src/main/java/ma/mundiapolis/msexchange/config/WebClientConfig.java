@@ -8,10 +8,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Configuration
 public class WebClientConfig {
 
-    /**
-      Bean WebClient.Builder
-      Pour que Spring l'injecte automatiquement dans nos services
-     */
+
 
     @Bean
     public WebClient.Builder webClientBuilder() {

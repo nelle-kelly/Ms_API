@@ -5,10 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- DTO pour renvoyer le résultat de conversion
- Exemple : Convertir 100 EUR en USD
- */
+
 
 @Data
 @Builder
