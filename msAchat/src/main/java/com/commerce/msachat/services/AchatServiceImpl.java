@@ -16,17 +16,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Implémentation du service Achat
- * Gère la logique métier des achats
- */
+
 @Service
 public class AchatServiceImpl implements AchatService {
 
     private final AchatRepo achatRepo;
     private final AchatMapper mapper;
 
-    // pour pouvoir appeler les autre microservices
+    //appeler les autre microservices
     private final WebClient.Builder webClientBuilder;
 
     // Je li l'URL de msExchange depuis application.properties

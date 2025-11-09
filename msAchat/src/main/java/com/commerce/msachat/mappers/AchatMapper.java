@@ -9,9 +9,9 @@ import org.mapstruct.ReportingPolicy;
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface AchatMapper {
 
-    // Convertit l'Entity Achat → DTO de réponse
+
     AchatResDto toDto(Achat achat);
 
-    // Convertit le DTO de requête → Entity Achat
+
     Achat toEntity(AchatReqDto achatReqDto);
 }
